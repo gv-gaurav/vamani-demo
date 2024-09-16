@@ -63,6 +63,19 @@ $(document).ready(function(){
 
 
 
+//   circle 8 images javascript code start
+
+
+
+
+
+
+//   circle 8 images javascript code END
+
+
+
+
+
 
 
 
