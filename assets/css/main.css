@@ -7,10 +7,96 @@
     box-sizing: border-box;
     font-family: "SUSE", sans-serif;
 }
+body a{
+    text-decoration: none;
+    color: black;
+}
+
+/* new header  */
+.top-main-line {
+    background-color: black;
+    color: white    ;
+}
+.top-main-line ul{
+    padding: 0.2rem 0;
+    padding-right: 1rem;
+    display: flex   ;
+    justify-content: end  ;
+    gap: 1rem   ;
+    font-size: 12px;
+    margin-bottom: 0;
+}
+.top-main-line ul li i{
+    margin-right: 0.3rem;
+}
+.home-main-nav,.nav-right-ul,.nav-left-list,.dropdown-ul{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+    padding-left: 0;
+    gap: 0.5rem;
+}
+.home-main-hader{
+    padding: 2px 0;
+    /* padding-top: 0; */
+}
+.nav-left-list img{
+    max-width: 125px;
+    position: relative;
+    z-index: 5;
+    margin: 0 1rem;
+}
+.nav-left-list li{
+    padding: 5px 14px;
+}
+.nav-right-ul li{
+    padding: 5px 8px;
+    font-size: 1.2rem;
+}
+.main-search-bar{
+    border-bottom: 1px solid grey;
+    padding: 5px 1rem;
+    /* border-radius: 0.5rem; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;}
+.main-search-bar input{
+    border: none;
+}
+.main-search-bar i{
+    padding: 0 5px;
+}
+.main-search-bar input:focus{
+    outline: none;
+}
+.nav-li-dropdown{
+    display: none;
+    padding-top: 1rem;
+    background-color: white;
+    z-index: 3;
+    position: absolute;
+    width: 100%;
+    left: 0;
+
+
+  
+}
+.nav-li-dropdown i{
+    font-size: 14px;
+}
+.dropdown-ul{
+    display: flex;
+    justify-content: center;
+}
+.dropdown-main:hover .nav-li-dropdown {
+    display: block;
+}
+.mobile-view-nav{
+    display: none;
+}
+
 
  /* header css start */
 
-
+/* 
 nav{
     display: flex;
     align-items: center;
@@ -64,7 +150,7 @@ nav{
 
       pointer-events: none;
   }
-
+ */
 
 
  /* header css end */
@@ -1042,7 +1128,29 @@ border:0px;
       
      /* circle 8 section css End */
 
+     
 
+     @media (max-width: 576px) {
+       .home-main-nav{
+        display: none;
+       }
+       .mobile-view-nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 0.5rem;
+        padding-right: 1.5rem;
+       }
+       .mobile-view-nav .logo-main img{
+        max-width: 100px;
+       }
+       .list-main i{
+        font-size: 1.5rem;
+        color: black;
+        font-weight: 600;
+       }
+    }
+    
 
 
 
