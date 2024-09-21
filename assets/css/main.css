@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -322,8 +323,9 @@ nav{
 }
 
 .part {
+    padding: 1.2rem;
     flex: 1;
-    min-width: 300px;
+    min-width: 200px;
     /* Minimum width to allow for responsive layout */
     max-width: 400px;
     /* Maximum width to maintain layout consistency */
@@ -460,7 +462,7 @@ nav{
 /* Mobile responsiveness */
 @media (max-width: 768px) {
     .brand-images img {
-        width: 100px;
+        width: 70px;
         /* Smaller image size for mobile */
     }
 }
@@ -474,7 +476,7 @@ nav{
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    padding: 20px;
+    padding:  3rem 20px;
 }
 
 .image-container {
@@ -666,14 +668,14 @@ nav{
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 16px;
-    padding: 0 20px;
+    padding: 0 10px;
 }
 
 .product {
     flex: 1 1 calc(50% - 16px);
     /* 2 products per row on mobile */
     box-sizing: border-box;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     /* background-color: #f9f9f9; */
     padding: 10px;
     /* border: 1px solid #ddd; */
@@ -1304,7 +1306,9 @@ span.num {
 
 /* circle 8 section css End */
 
-
+.who-are-we-box{
+    padding: 0;
+}
 
 @media (max-width: 576px) {
    
@@ -1345,6 +1349,43 @@ span.num {
     .slide-btn {
         padding: 0;
     }
+    .product .fs-10{
+        font-size: 13px;
+    }
+    .image-section {
+       
+        padding: 1rem 0;
+    }
+    .image-container img {
+        width: 115px;
+    }
+    .reviewer-box{
+        display: none;
+    }
+    .card-body{
+        border: 1px solid lightgrey !important;
+        border-radius: 0.5rem;
+    }
+    .review-row{
+        display: flex;
+        justify-content: center;
+    }
+    .who-are-we-box{
+        padding: 1rem !important;
+    }
+    .section{
+        padding: 0;
+    }
+    .box{
+        padding: 0.8rem;
+    }
+    .box p{
+       font-size: 15px;
+    }
+    .brand-images{
+        gap: 40px;
+    }
+    
 }
 
 .main-banner-secrtion {
@@ -1418,11 +1459,17 @@ span.num {
 }
 
 .the-spotlight-box {
-    padding: 1.5rem 2rem !important;
+    padding: 1rem 1rem !important;
+    text-align: center;
 }
 
 @media only screen and (min-width: 576px) {
     .main-banner-mobile {
         display: none;
     }
+    
+    
+}
+.lato-font {
+    font-family: "Lato", sans-serif;
 }
