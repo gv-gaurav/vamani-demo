@@ -74,6 +74,26 @@ $(document).ready(function(){
 
 
 
+// navbar custom js code start
+// Get the button and slider elements
+// const searchBtn = document.getElementById('searchBtn');
+// const searchSlider = document.getElementById('searchSlider');
+// const closeSlider = document.getElementById('closeSlider');
+
+// // Show the search slider when the search button is clicked
+// searchBtn.addEventListener('click', () => {
+//     searchSlider.style.top = '0';
+// });
+
+// // Hide the search slider when the close button is clicked
+// closeSlider.addEventListener('click', () => {
+//     searchSlider.style.top = '-100px';
+// });
+
+// navbar custom js code end
+
+
+
 
 
 
