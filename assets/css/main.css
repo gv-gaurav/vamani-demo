@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -476,7 +477,7 @@ nav{
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    padding:  3rem 20px;
+    padding: 3rem 20px;
 }
 
 .image-container {
@@ -1306,12 +1307,12 @@ span.num {
 
 /* circle 8 section css End */
 
-.who-are-we-box{
+.who-are-we-box {
     padding: 0;
 }
 
 @media (max-width: 576px) {
-   
+
     .home-main-nav {
         display: none;
     }
@@ -1349,43 +1350,54 @@ span.num {
     .slide-btn {
         padding: 0;
     }
-    .product .fs-10{
+
+    .product .fs-10 {
         font-size: 13px;
     }
+
     .image-section {
-       
+
         padding: 1rem 0;
     }
+
     .image-container img {
         width: 115px;
     }
-    .reviewer-box{
+
+    .reviewer-box {
         display: none;
     }
-    .card-body{
+
+    .card-body {
         border: 1px solid lightgrey !important;
         border-radius: 0.5rem;
     }
-    .review-row{
+
+    .review-row {
         display: flex;
         justify-content: center;
     }
-    .who-are-we-box{
+
+    .who-are-we-box {
         padding: 1rem !important;
     }
-    .section{
+
+    .section {
         padding: 0;
     }
-    .box{
+
+    .box {
         padding: 0.8rem;
     }
-    .box p{
-       font-size: 15px;
+
+    .box p {
+        font-size: 15px;
     }
-    .brand-images{
+
+    .brand-images {
         gap: 40px;
     }
-    
+
 }
 
 .main-banner-secrtion {
@@ -1467,9 +1479,10 @@ span.num {
     .main-banner-mobile {
         display: none;
     }
-    
-    
+
+
 }
+
 .lato-font {
     font-family: "Lato", sans-serif;
 }
@@ -1529,20 +1542,21 @@ span.num {
 }
 
 
-.social-icons a i{
-font-size: 1.5rem;
-padding: 0 0.5rem;
-color: black;
-transition: 0.3s;
+.social-icons a i {
+    font-size: 1.5rem;
+    padding: 0 0.5rem;
+    color: black;
+    transition: 0.3s;
 }
 
-.social-icons a i:hover{
+.social-icons a i:hover {
     color: red;
-    }
-.icon-links a i{
-font-size: 1.5rem;
-padding: 0 0.5rem;
-color: black;
+}
+
+.icon-links a i {
+    font-size: 1.5rem;
+    padding: 0 0.5rem;
+    color: black;
 }
 
 
@@ -1559,22 +1573,23 @@ color: black;
         flex-direction: column;
         align-items: flex-start;
     }
-    
+
     .social-icons {
         margin-bottom: 10px;
     }
-    
+
     .logo {
         margin-bottom: 10px;
     }
-    
+
     .icon-links {
         display: flex;
         justify-content: space-around;
         width: 100%;
     }
 }
-.top-navbar{
+
+.top-navbar {
     width: 100%;
     height: 2rem;
     display: flex;
@@ -1582,24 +1597,27 @@ color: black;
     background-color: black;
 }
 
-.marqueediv{
+.marqueediv {
     width: 40rem;
     /* background-color: white; */
     display: flex;
     align-items: center;
 }
-.marqueediv marquee{
+
+.marqueediv marquee {
     color: white;
     font-weight: 600;
     font-family: "Montserrat", sans-serif;
 }
-.menubar-links{
+
+.menubar-links {
     display: flex;
     justify-content: center;
     background-color: black;
     align-items: center;
 }
-.main-menubar a{
+
+.main-menubar a {
     text-decoration: none;
     color: black;
     font-size: 1rem;
@@ -1608,15 +1626,18 @@ color: black;
     transition: 0.3s;
     color: white;
 }
-.main-menubar a:hover{
+
+.main-menubar a:hover {
 
     color: #E6BF1B;
 
 }
-.main-menubar{
+
+.main-menubar {
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
 }
+
 /* sale blibk css code start */
 .blink {
     color: red;
@@ -1630,6 +1651,7 @@ color: black;
         opacity: 0;
     }
 }
+
 /* sale blibk css code end */
 
 
@@ -1643,35 +1665,42 @@ color: black;
     font-size: 16px;
     border: none;
     transition: 0.3s;
-  }
-  
-  .dropdown {
+}
+
+.dropdown {
     position: relative;
     display: inline-block;
-  }
-  
-  .dropdown-content {
+}
+
+.dropdown-content {
     width: 100vh;
     display: none;
     position: absolute;
     background-color: #f1f1f1;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-  }
-  
-  .dropdown-content a {
+}
+
+.dropdown-content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-  }
-  
-  .dropdown-content a:hover {background-color: #ddd;}
-  
-  .dropdown:hover .dropdown-content {display: block;}
-  
-  .dropdown:hover .dropbtn {color: #E6BF1B;}
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    color: #E6BF1B;
+}
+
 /* drop down css end */
 
 
@@ -1695,7 +1724,8 @@ color: black;
     align-items: center;
     transition: top 0.4s ease;
     z-index: 999;
-    overflow: hidden; /* Prevent content from overflowing */
+    overflow: hidden;
+    /* Prevent content from overflowing */
 }
 
 /* Create a blurred background */
@@ -1706,9 +1736,12 @@ color: black;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(253, 243, 243, 0.342); /* Adjust background color as needed */
-    backdrop-filter: blur(2px); /* Blur effect */
-    z-index: -1; /* Make sure the blur is behind the content */
+    background-color: rgba(253, 243, 243, 0.342);
+    /* Adjust background color as needed */
+    backdrop-filter: blur(2px);
+    /* Blur effect */
+    z-index: -1;
+    /* Make sure the blur is behind the content */
 }
 
 /* Keep the search container on top */
@@ -1718,7 +1751,8 @@ color: black;
     justify-content: space-between;
     width: 90%;
     max-width: 800px;
-    z-index: 1; /* Ensure the search input is above the blur */
+    z-index: 1;
+    /* Ensure the search input is above the blur */
 }
 
 #searchInput {
@@ -1767,22 +1801,25 @@ color: black;
 /* user drop-down css code start */
 .dropdown:hover>.dropdown-menu {
     display: block;
-  }
-  
-  .dropdown>.dropdown-toggle:active {
+}
+
+.dropdown>.dropdown-toggle:active {
     /*Without this, clicking will make it sticky*/
-      pointer-events: none;
-  }
-  .dropdown-menu a{
+    pointer-events: none;
+}
+
+.dropdown-menu a {
     transition: 0.3s;
-  }
-  .dropdown-menu a:hover{
+}
+
+.dropdown-menu a:hover {
     color: white;
     background-color: black;
-  }
+}
+
 /* user drop-down css code end */
 
-.drop{
+.drop {
     position: absolute;
     top: 5px;
     right: 10px;
@@ -1792,27 +1829,57 @@ color: black;
 
 /* media querry start for mobile responsive start*/
 @media only screen and (max-width: 600px) {
- .logo{
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
- }
- .menubar-links{
-    display: none;
- }
- #searchBtn{
+    .logo {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
 
- }
-/* media querry start for mobile responsive End*/
+    .menubar-links {
+        display: none;
+    }
+
+    #searchBtn {}
+
+    /* media querry start for mobile responsive End*/
 
 
-.offcanvas-body{
-    display: flex;
-    max-height: fit-content;
+
 }
 
+.offcanvas-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    gap: 3rem;
 
+
+}
+
+.offcanvas {
+    height: fit-content !important;
+    padding: 0.1rem !important;
+}
+
+.offcanvas-body input {
+    min-width: 50vw;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid grey;
+}
+.offcanvas-body input:focus{
+    outline: none;
+}
+@media  only screen and (max-width:576px) {
+    .offcanvas{
+        max-width: 100vw;
+    }
+    .offcanvas-body{
+        gap: 2rem;
+    }
+}
 
 
 
