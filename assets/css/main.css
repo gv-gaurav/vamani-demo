@@ -34,6 +34,7 @@ body a {
 .top-main-line ul li i {
     margin-right: 0.3rem;
 }
+.drop
 
 .home-main-nav,
 .nav-right-ul,
@@ -1486,51 +1487,14 @@ span.num {
 .lato-font {
     font-family: "Lato", sans-serif;
 }
-
-
-
-
-
-
-
-
-
-
 /* main header css start */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
     background-color: #e9e5e5;
+    /* background-color: black; */
     border-bottom: 1px solid #ddd;
 }
 
@@ -1780,6 +1744,13 @@ span.num {
     #searchInput {
         width: 100%;
     }
+     .social-icons{
+        display: none;
+     }
+     .logo img {
+        width: 70%;
+        /* height: auto; */
+    }
 
     #searchBtn {
         /* width: 100%; */
@@ -1821,7 +1792,7 @@ span.num {
 
 .drop {
     position: absolute;
-    top: 5px;
+    top: 7px;
     right: 10px;
 }
 
@@ -1876,24 +1847,67 @@ span.num {
     .offcanvas{
         max-width: 100vw;
     }
+    .marqueediv {
+        width: 10rem;
+    }
+    .marqueediv marquee{
+        font-size: 0.6rem;
+    }
+    .top-navbar {
+        width: 100%;
+        height: 2rem;
+        /* display: flex; */
+        background-color: black;
+    }
+    
     .offcanvas-body{
         gap: 2rem;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* main header css end */
+
+
+
+/* hover drop down button start */
+
+.language-selector {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .language-button {
+    /* background-color: #4CAF50; */
+    color: white;
+    /* padding: 10px 20px; */
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .language-options {
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .language-options a {
+    color: black;
+    padding: 5px 12px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .language-options a:hover {
+    background-color: #ddd;
+  }
+  
+  .language-selector:hover .language-options {
+    display: block;
+  }
+  
+
+/* hover drop down button end */
